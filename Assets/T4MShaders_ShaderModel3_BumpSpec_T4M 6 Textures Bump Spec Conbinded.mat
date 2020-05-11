@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: T4MShaders_ShaderModel3_BumpSpec_T4M 6 Textures Bump Spec Conbinded
+  m_Shader: {fileID: 4800000, guid: 1eac35231b5ff7045a202245f59bf20d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpSplat:
+        m_Texture: {fileID: 2800000, guid: e1d6a2c7a65b00f4f90e339dd66d49d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 2800000, guid: 8505dad09b3fc8144af06bc54932597c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control2:
+        m_Texture: {fileID: 2800000, guid: dec7255a30ce22845a63395e2863ceb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat:
+        m_Texture: {fileID: 2800000, guid: 961d5c872dc550f4897c4554bb3ce0b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Gloss0: 0.77
+    - _Gloss1: 0.971
+    - _Gloss2: 0.964
+    - _Gloss3: 1
+    - _Gloss4: 1
+    - _Gloss5: 1
+    - _ShininessL0: 1
+    - _ShininessL1: 1
+    - _ShininessL2: 1
+    - _ShininessL3: 1
+    - _ShininessL4: 1
+    - _ShininessL5: 1
+    m_Colors:
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tiling0: {r: 10, g: 10, b: 0, a: 0}
+    - _Tiling1: {r: 10, g: 10, b: 0, a: 0}
+    - _Tiling2: {r: 10, g: 10, b: 0, a: 0}
+    - _Tiling3: {r: 10, g: 10, b: 0, a: 0}
+    - _Tiling4: {r: 10, g: 10, b: 0, a: 0}
+    - _Tiling5: {r: 10, g: 10, b: 0, a: 0}
